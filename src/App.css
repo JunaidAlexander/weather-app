@@ -62,11 +62,14 @@
   font-size: 80px;
   font-weight: 500;
 }
+.w {
+  font-size: 13px;
+}
 
 .humidity,
 .wind,
 .precip {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   padding: 5px;
   color: #f67834;
