@@ -45,7 +45,7 @@ function App() {
 
         <div className="temp-details row  mt-5">
           <h1 className="temp">23°</h1>
-          <p>
+          <p className="w">
             Humidty <span className="humidity"> 20% </span>
             Wind <span className="wind"> 20km/h </span>
             precip <span className="precip"> 44%</span>
