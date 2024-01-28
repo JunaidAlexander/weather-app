@@ -11,3 +11,4 @@
 *.svg filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
+/src/SvG[[:space:]]Weather filter=lfs diff=lfs merge=lfs -text
