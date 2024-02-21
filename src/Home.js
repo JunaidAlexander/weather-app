@@ -7,8 +7,8 @@ import axios from "axios";
 export default function Home() {
   const defaultCity = "Cape Town";
 
-  const apiKey = "4824o763a0a4e436tb063a409ba4f083";
-  const apiUrl = `https://api.shecodes.io/weather/v1/current?query={query}&key=${apiKey}`;
+  const apiKey = "";
+  const apiUrl = ``;
 
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState({});
