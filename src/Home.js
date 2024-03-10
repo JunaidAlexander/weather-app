@@ -4,11 +4,14 @@ import backgroundVideo from "../src/videos/bg.mp4";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
+
+
 export default function Home() {
   const defaultCity = "Cape Town";
 
-  const apiKey = process.env.REACT_APP_API_KEY;
+ const apiKey = process.env.REACT_APP_API_KEY;
 const apiUrl = process.env.REACT_APP_API_URL;
+
 
 
   const [search, setSearch] = useState("");

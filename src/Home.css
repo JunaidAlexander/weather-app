@@ -9,15 +9,17 @@ input {
   border-radius: 30px;
   outline: none;
   border: none;
-  width: 340px;
+  width: 338px;
   align-self: center;
   backdrop-filter: blur(10px);
   color: #fff;
+  margin-left: 5px;
 }
 
 input::placeholder {
   padding: 10px;
-  /* color: #fff; */
+  
+  
 }
 
 video {
