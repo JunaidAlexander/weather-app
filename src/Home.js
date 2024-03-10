@@ -7,8 +7,9 @@ import axios from "axios";
 export default function Home() {
   const defaultCity = "Cape Town";
 
-  const apiKey = "";
-  const apiUrl = ``;
+  const apiKey = process.env.REACT_APP_API_KEY;
+const apiUrl = process.env.REACT_APP_API_URL;
+
 
   const [search, setSearch] = useState("");
   const [weather, setWeather] = useState({});
